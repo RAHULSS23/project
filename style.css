@@ -1,0 +1,44 @@
+body{
+   
+    text-align: center;
+
+}
+h1{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    color: brown;
+
+}
+p{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:normal ;
+    color: chocolate;
+}
+ol{
+    font-size: x-large;
+    color: coral;
+
+}
+li{
+    font-size: smaller;
+    color: darkblue;
+    list-style-position: inside;
+}
+#VERZEO{
+    border: 5px darkgreen;
+    width: 20px;
+    text-align: center;
+    margin: auto;
+}
+#fswd{
+    border:3px darkorange;
+    padding: 40px;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+form{
+    text-align: center;
+}

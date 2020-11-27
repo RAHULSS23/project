@@ -1,0 +1,84 @@
+<! doctype html>
+<html>
+<head>
+<title>form controls</title>
+</head>
+<body>
+<form action="http://www.example.com/login.php">
+<p>username
+<input type="text" name="username"  size="15" maxlength="30"> //for writing text in forms   
+</p>
+<p>password
+<input type="password" name="password" size="15" maxlength="30">
+</p>
+</form>
+
+<h1>text area</h1>
+<form action="http://www.example.com/textarea.php">
+<p>comment please
+<textarea name="comment" cols="20" rows="4" >  </textarea>
+</form>
+
+<p>checkbox</p>
+<form action="http://www.example.com/profile.php">
+<p>please select your fav game:</p><br>
+<input type="checkbox" value="gta" checked="checked">gta
+<input type="checkbox" value="nfs" checked="checked">nfs
+<input type="checkbox" value="cod" checked="checked">cod
+</p>
+
+
+<form action="http://www.example.com/profile.php">
+<p>please select your fav game:</p><br>
+<select name="games">
+<option  >gta</option>
+<option value="gta" >gta</option>
+<option value="gta" >gta</option>
+</select>
+</form>
+
+<form action="http://www.google.com/profile.php">
+<p>games</p>
+<select name="games" multiple="multiple">
+<option>gta</option>
+<option>nfs</option>
+<option>gta</option>
+<option>gta</option>
+<option>gta</option>
+</select>
+</form>
+
+<form action="http://www.example.com/profile.php">
+<p>upload ur song</p>
+<input type="file"><br>
+<input type="submit" value="upload">
+</form>
+
+<form action="http://www.example.com/login/" method="post">
+<label>username</label>
+<input type="text"><br>
+<label>password</label>
+<input type="text">
+<input type="submit">
+</form>
+
+
+<label>age
+<input type="text"></label>
+<br>
+gender
+<label>female</label>
+<input type="radio">
+<label>male</label>
+<input type="radio">
+
+<fieldset>
+<legend>contact details</legend>
+<label>username</label>
+<input type="text"><br>
+<label>password</label>
+<input type="text">
+</fieldset>
+
+</body>
+</html>
